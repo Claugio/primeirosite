@@ -8,11 +8,46 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
 
     <title>Cadastro de Produtos</title>
 </head>
 <body>
+
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>Logo</h1>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"> Sobre</a></li>
+                </ul>
+            </div>
+            <div class="login-button">
+                <button><a href="#">Entrar</a></button>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+            </ul>
+
+            <div class="login-button">
+                <button><a href="#">Entrar</a></button>
+            </div>
+        </div>
+    </header>
+
+    <script src="assets/js/script.js"></script>
 
     <div class="container">
 
@@ -44,6 +79,6 @@
         </form>
     <ul id="listaProdutos"></ul>
     </div>
-    <script src="./app.js"></script>
+    <script src="assets/css/app.js"></script>
 </body>
 </html>
